@@ -1,0 +1,359 @@
+@import "../scss/variables-local.scss";
+
+
+// MOBIL
+
+
+@media (max-width: 575.98px) {
+
+    .logo-principal {
+        width: 60px;
+        margin-left: 10px;
+
+    }
+
+    .pagina-principal {
+        background-image: url("../public/header-max1.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+        display: grid;
+
+        .nav-principal {
+            .navbar-nav {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+
+        .bienvenida {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .texto-bienvenida {
+                display: none;
+            }
+
+            h1 {
+                font-family: $font-T;
+                font-weight: bold;
+                font-size: 27px;
+                color: $color-t;
+                margin-top: 0;
+            }
+        }
+    }
+}
+
+
+
+
+.section-principal {
+
+    .section-multimedia {
+        margin-bottom: 40px;
+
+        .img-productos {
+            max-width: 50%;
+            height: auto;
+            border-radius: 10px;
+            padding: 2px;
+        }
+
+        .card-text {
+            display: none;
+        }
+    }
+
+}
+
+// PAGINAS
+.section-paginas {
+
+    .imagen-halloween {
+        width: 50%;
+    }
+
+    .imagen-patrimonio {
+        width: 70%;
+    }
+}
+
+// section co-work
+
+.cowork-principal {
+    padding: 160px;
+}
+
+.cowork-cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.cowork-info {
+    background-color: $color-t;
+    padding: 40px;
+    display: grid;
+    grid-template-areas: "cowork-wifi cowork-reuniones"
+        "cowork-gastronomica cowork-descanso"
+        "cowork-after cowork-dias";
+    justify-content: space-around;
+
+    .cowork-wifi {
+        grid-area: cowork-wifi;
+    }
+
+    .cowork-reuniones {
+        grid-area: cowork-reuniones;
+    }
+
+    .cowork-gastronomica {
+        grid-area: cowork-gastronomica;
+    }
+
+    .cowork-descanso {
+        grid-area: cowork-descanso;
+    }
+
+    .cowork-after {
+        grid-area: cowork-after;
+    }
+
+    .cowork-dias {
+        grid-area: cowork-dias;
+    }
+
+    p {
+        color: white;
+    }
+}
+
+.iconos-cowork {
+    width: 60px;
+}
+
+footer {
+
+    display: grid;
+    grid-template-areas:
+        "logo-footer redes-footer"
+        "productos-footer direccion-footer"
+        "eventos-footer horario-footer"
+        "menu-footer nosotros-footer";
+
+    .logo-footer {
+        grid-area: logo-footer;
+        margin-top: 18px;
+
+        .logo-principal {
+            width: 60px;
+
+        }
+    }
+
+    .redes-footer {
+        grid-area: redes-footer;
+    }
+
+    .direccion-footer {
+        grid-area: direccion-footer;
+        margin-top: -11px;
+    }
+
+    .horario-footer {
+        grid-area: horario-footer;
+        margin-top: -11px;
+    }
+
+    .iconos-redes {
+        width: 18px;
+    }
+}
+
+
+
+
+
+// ESCRITORIO
+
+
+@media (min-width: 575.98px) {
+
+    .logo-principal {
+        width: 87px;
+        margin-left: 33px;
+    }
+
+    .pagina-principal {
+        background-image: url("../public/header-min1.png");
+        background-repeat: no-repeat;
+        background-size: 100vw;
+        height: 65vw;
+        display: grid;
+        grid-template-areas: "nav-principal nav-principal"
+            "bienvenida bienvenida";
+
+        .imagen-header {
+            display: none;
+        }
+
+
+        .nav-principal {
+            grid-area: nav-principal;
+        }
+
+        .bienvenida {
+            grid-area: bienvenida;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+
+            .texto-bienvenida-mobil {
+                display: none;
+            }
+
+            h1 {
+                font-family: $font-T;
+                font-weight: bold;
+                font-size: 60px;
+                color: $color-t;
+                width: 70%;
+                text-align: center;
+
+            }
+        }
+    }
+
+
+
+
+    // PAGINAS
+    .section-paginas {
+
+        .imagen-halloween {
+            width: 45%;
+        }
+
+        .imagen-patrimonio {
+            width: 70%;
+        }
+    }
+
+    // section co-work
+
+    .cowork-principal {
+        display: flex;
+        flex-direction: column;
+        padding: 160px;
+    }
+
+    .cowork-cards {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 50px;
+    }
+
+    .cowork-info {
+        background-color: $color-t;
+        padding: 40px;
+        display: grid;
+        grid-template-areas: "cowork-wifi cowork-reuniones cowork-gastronomica"
+            "cowork-descanso cowork-after cowork-dias";
+        justify-content: space-around;
+
+        .cowork-wifi {
+            grid-area: cowork-wifi;
+        }
+
+        .cowork-reuniones {
+            grid-area: cowork-reuniones;
+        }
+
+        .cowork-gastronomica {
+            grid-area: cowork-gastronomica;
+        }
+
+        .cowork-descanso {
+            grid-area: cowork-descanso;
+        }
+
+        .cowork-after {
+            grid-area: cowork-after;
+        }
+
+        .cowork-dias {
+            grid-area: cowork-dias;
+        }
+
+        p {
+            color: white;
+        }
+    }
+
+    .iconos-cowork {
+        width: 60px;
+    }
+
+    /* FOOTER */
+
+    footer {
+
+        display: grid;
+        grid-template-areas:
+            "logo-footer nosotros-footer productos-footer direccion-footer"
+            "redes-footer eventos-footer menu-footer horario-footer";
+            margin-top: 50px;
+
+        .logo-footer {
+            grid-area: logo-footer;
+            margin-top: 70px;
+        }
+
+        .nosotros-footer {
+            grid-area: nosotros-footer;
+        }
+
+        .productos-footer {
+            grid-area: productos-footer;
+        }
+
+        .redes-footer {
+            grid-area: redes-footer;
+            margin-left: 10px;
+        }
+
+        .eventos-footer {
+            grid-area: eventos-footer;
+        }
+
+        .menu-footer {
+            grid-area: menu-footer;
+        }
+
+        .direccion-footer {
+            grid-area: direccion-footer;
+            margin-top: -11px;
+        }
+
+        .horario-footer {
+            grid-area: horario-footer;
+            margin-top: -13px;
+        }
+
+        footer div {
+            padding: 20px;
+        }
+
+        .iconos-redes {
+            width: 26px;
+        }
+
+    }
+}
