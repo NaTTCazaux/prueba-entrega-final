@@ -3318,8 +3318,9 @@ textarea.form-control-lg {
 .navbar-light .navbar-nav .show > .nav-link,
 .navbar-light .navbar-nav .nav-link.active {
   color: #204a4a;
-  font-family: 'Krona One', sans-serif;
-  font-size: 15px;
+  font-family: 'Rubik', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
   border: solid transparent;
   margin-right: 40px; }
 
@@ -7421,12 +7422,6 @@ textarea.form-control-lg {
   .section-principal .section-multimedia .card-text {
     display: none; }
 
-.section-paginas .imagen-halloween {
-  width: 50%; }
-
-.section-paginas .imagen-patrimonio {
-  width: 70%; }
-
 .cowork-principal {
   padding: 160px; }
 
@@ -7508,10 +7503,6 @@ footer {
         color: #204a4a;
         width: 70%;
         text-align: center; }
-  .section-paginas .imagen-halloween {
-    width: 45%; }
-  .section-paginas .imagen-patrimonio {
-    width: 70%; }
   .cowork-principal {
     display: flex;
     flex-direction: column;
@@ -7667,8 +7658,40 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    justify-content: center; }
+    justify-content: center;
+    margin-bottom: 50px; }
     .section-paginas .textos- .p-importante {
       font-weight: bold; }
     .section-paginas .textos- .p-gris {
       color: #787878; }
+
+.header-cafe {
+  background-image: url("../public/header-cafe1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh; }
+
+.section-cafe {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 50px; }
+  .section-cafe .img-cafe {
+    max-width: 50%;
+    border-radius: 10px; }
+  .section-cafe div {
+    width: 50%; }
+    .section-cafe div .cafe-textos {
+      display: flex; }
+      .section-cafe div .cafe-textos h2, .section-cafe div .cafe-textos .h2 {
+        font-family: "Krona One", sans-serif;
+        font-size: 30px;
+        color: #204a4a; }
+      .section-cafe div .cafe-textos p {
+        font-family: "Rubik", sans-serif;
+        text-decoration: none;
+        font-size: 12px;
+        color: black;
+        margin-top: 15px; }
