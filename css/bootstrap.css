@@ -7411,13 +7411,11 @@ textarea.form-control-lg {
         font-size: 27px;
         color: #204a4a;
         margin-top: 0; }
-  .section-principal {
-    margin-top: 50px; }
-    .section-principal .section-multimedia {
-      margin-bottom: 40px;
-      display: flex;
-      flex-direction: row;
-      justify-content: space-around; }
+  .section-principal .section-multimedia {
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; }
   .cowork-principal {
     display: flex;
     flex-direction: column;
