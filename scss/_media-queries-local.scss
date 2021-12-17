@@ -33,7 +33,7 @@
             flex-direction: column;
             align-items: center;
 
-            .texto-bienvenida {
+            &-escritorio {
                 display: none;
             }
 
@@ -45,135 +45,140 @@
                 margin-top: 0;
             }
         }
+
     }
-}
 
+    .section-principal {
 
+        margin: 50px;
 
+        .section-multimedia {
+            margin-bottom: 40px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
 
-.section-principal {
-
-    .section-multimedia {
-        margin-bottom: 40px;
-
-        .img-productos {
-            max-width: 50%;
-            height: auto;
-            border-radius: 10px;
-            padding: 2px;
         }
 
-        .card-text {
-            display: none;
+    }
+
+
+  
+    .cowork-principal {
+        display: flex;
+        flex-direction: column;
+        margin: 50px;
+    }
+
+    .cowork-cards {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 50px;
+    }
+
+    .cowork-info {
+        background-color: $color-t;
+        padding: 40px;
+        display: grid;
+        grid-template-areas: "cowork-wifi cowork-reuniones"
+            "cowork-gastronomica cowork-descanso"
+            "cowork-after cowork-dias";
+        justify-content: space-around;
+
+        .cowork-wifi {
+            grid-area: cowork-wifi;
         }
-    }
 
-}
+        .cowork-reuniones {
+            grid-area: cowork-reuniones;
+        }
 
-// PAGINAS
-// .section-paginas {
+        .cowork-gastronomica {
+            grid-area: cowork-gastronomica;
+        }
 
-//     .imagen-halloween {
-//         width: 50%;
-//     }
+        .cowork-descanso {
+            grid-area: cowork-descanso;
+        }
 
-//     .imagen-patrimonio {
-//         width: 70%;
-//     }
-// }
+        .cowork-after {
+            grid-area: cowork-after;
+        }
 
-// section co-work
+        .cowork-dias {
+            grid-area: cowork-dias;
+        }
 
-.cowork-principal {
-    padding: 160px;
-}
+        p {
+            color: white;
+        }
 
-.cowork-cards {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    padding: 50px;
-}
-
-.cowork-info {
-    background-color: $color-t;
-    padding: 40px;
-    display: grid;
-    grid-template-areas: "cowork-wifi cowork-reuniones"
-        "cowork-gastronomica cowork-descanso"
-        "cowork-after cowork-dias";
-    justify-content: space-around;
-
-    .cowork-wifi {
-        grid-area: cowork-wifi;
-    }
-
-    .cowork-reuniones {
-        grid-area: cowork-reuniones;
-    }
-
-    .cowork-gastronomica {
-        grid-area: cowork-gastronomica;
-    }
-
-    .cowork-descanso {
-        grid-area: cowork-descanso;
-    }
-
-    .cowork-after {
-        grid-area: cowork-after;
-    }
-
-    .cowork-dias {
-        grid-area: cowork-dias;
-    }
-
-    p {
-        color: white;
-    }
-}
-
-.iconos-cowork {
-    width: 60px;
-}
-
-footer {
-
-    display: grid;
-    grid-template-areas:
-        "logo-footer redes-footer"
-        "productos-footer direccion-footer"
-        "eventos-footer horario-footer"
-        "menu-footer nosotros-footer";
-
-    .logo-footer {
-        grid-area: logo-footer;
-        margin-top: 18px;
-
-        .logo-principal {
-            width: 60px;
-
+        .iconos-cowork {
+            width: 40px;
         }
     }
 
-    .redes-footer {
-        grid-area: redes-footer;
+    .iconos-cowork {
+        width: 60px;
     }
 
-    .direccion-footer {
-        grid-area: direccion-footer;
-        margin-top: -11px;
+    footer {
+
+        display: grid;
+        grid-template-areas:
+            "footer-logo footer-redes"
+            "footer-nosotros footer-direccion"
+            "footer-taller footer-horario"
+            "footer-menu footer-cowork";
+
+        .footer-logo {
+            grid-area: footer-logo;
+            margin-top: 18px;
+
+            .logo-principal {
+                width: 60px;
+
+            }
+        }
+
+        .footer-nosotros {
+            grid-area: footer-nosotros;
+        }
+
+        .footer-redes {
+            grid-area: footer-redes;
+        }
+
+        .footer-cowork {
+            grid-area: footer-cowork;
+        }
+
+        .footer-direccion {
+            grid-area: footer-direccion;
+            margin-top: -11px;
+        }
+
+        .footer-taller {
+            grid-area: footer-taller;
+        }
+
+        .footer-horario {
+            grid-area: footer-horario;
+            margin-top: -11px;
+        }
+
+        .iconos-redes {
+            width: 18px;
+        }
     }
 
-    .horario-footer {
-        grid-area: horario-footer;
-        margin-top: -11px;
-    }
-
-    .iconos-redes {
-        width: 18px;
-    }
 }
+
+
+
+
+
 
 
 
@@ -214,7 +219,7 @@ footer {
             align-items: center;
 
 
-            .texto-bienvenida-mobil {
+            &-mobil {
                 display: none;
             }
 
@@ -234,23 +239,12 @@ footer {
 
 
     // PAGINAS
-    // .section-paginas {
 
-    //     .imagen-halloween {
-    //         width: 45%;
-    //     }
-
-    //     .imagen-patrimonio {
-    //         width: 70%;
-    //     }
-    // }
-
-    // section co-work
 
     .cowork-principal {
         display: flex;
         flex-direction: column;
-        padding: 160px;
+        margin: 50px;
     }
 
     .cowork-cards {
@@ -307,43 +301,43 @@ footer {
 
         display: grid;
         grid-template-areas:
-            "logo-footer nosotros-footer productos-footer direccion-footer"
-            "redes-footer eventos-footer menu-footer horario-footer";
-            margin-top: 50px;
+            "footer-logo footer-nosotros footer-cowork footer-direccion"
+            "footer-redes footer-taller footer-menu footer-horario";
+        margin-top: 50px;
 
-        .logo-footer {
-            grid-area: logo-footer;
+        .footer-logo {
+            grid-area: footer-logo;
             margin-top: 70px;
         }
 
-        .nosotros-footer {
-            grid-area: nosotros-footer;
+        .footer-nosotros {
+            grid-area: footer-nosotros;
         }
 
-        .productos-footer {
-            grid-area: productos-footer;
+        .footer-cowork {
+            grid-area: footer-cowork;
         }
 
-        .redes-footer {
-            grid-area: redes-footer;
+        .footer-redes {
+            grid-area: footer-redes;
             margin-left: 10px;
         }
 
-        .eventos-footer {
-            grid-area: eventos-footer;
+        .footer-taller {
+            grid-area: footer-taller;
         }
 
-        .menu-footer {
-            grid-area: menu-footer;
+        .footer-menu {
+            grid-area: footer-menu;
         }
 
-        .direccion-footer {
-            grid-area: direccion-footer;
+        .footer-direccion {
+            grid-area: footer-direccion;
             margin-top: -11px;
         }
 
-        .horario-footer {
-            grid-area: horario-footer;
+        .footer-horario {
+            grid-area: footer-horario;
             margin-top: -13px;
         }
 

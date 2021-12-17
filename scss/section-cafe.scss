@@ -1,48 +1,54 @@
 @import "../scss/variables-local.scss";
 
 .header-cafe {
-    background-image: url("../public/header-cafe1.jpg");
+    background-image: url("../public/cafe/header-cafe\ \(2\).jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     height: 100vh;
 }
 
-.section-cafe {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
+.principal-section-cafe{
 
-    .img-cafe {
-        max-width: 50%;
-        border-radius: 10px;
-    }
+    padding: 3rem;
 
-    div {
-        width: 50%;
- 
+    .section-cafe {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin: 50px;
 
-        .cafe-textos {
-            display: flex;
-
-            h2 {
-                font-family: $font-T;
-                font-size: 30px;
-                color: $color-t;
-            }
-
-            p {
-                font-family: $font-S;
-                text-decoration: none;
-                font-size: 12px;
-                color: black;
-                margin-top: 15px;
+    
+        .img-cafe {
+            max-width: 80%;
+            border-radius: 10px;
+        }
+    
+        div {
+            width: 50%;
+     
+    
+            .cafe-textos {
+                display: flex;
+    
+                h2 {
+                    font-family: $font-T;
+                    font-size: 30px;
+                    color: $color-t;
+                }
+    
+                p {
+                    font-family: $font-S;
+                    text-decoration: none;
+                    font-size: 12px;
+                    color: black;
+                    margin-top: 15px;
+                }
             }
         }
     }
 }
+
 
 
 

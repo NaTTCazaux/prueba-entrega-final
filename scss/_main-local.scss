@@ -3,13 +3,6 @@
 
 // PAGINA PRINCIPAL
 
-
-.textos- h2 {
-    font-family: $font-T;
-    font-size: 30px;
-    color: $color-t;
-}
-
 .p-section {
     font-family: $font-S;
     text-decoration: none;
@@ -22,12 +15,12 @@
     margin-top: 70px;
 
     .img-nosotros {
-        max-width: 100%;
+        max-width: 99%;
         border-radius: 10px;
     }
 
-    .img-productos {
-        max-width: 40%;
+    .img-cafe-especialidad {
+        max-width: 49%;
         height: auto;
         border-radius: 10px;
     }
@@ -38,14 +31,6 @@
         align-items: flex-start;
         justify-content: center;
         margin-top: 40px;
-    }
-
-    .textos-eventos {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        margin-top: 40px;
 
         h2 {
             font-family: $font-T;
@@ -54,34 +39,19 @@
         }
     }
 
+    .img-taller{
+        max-width: 40%;
+        height: auto;
+        border-radius: 10px;
+    }
+
 
 
     .p-importante {
         font-weight: bold;
     }
 
-    .principal-cards {
-        display: flex;
-        justify-content: space-around;
 
-        .card-img-top{
-            width: 50%;
-        }
-    }
-
-    .section-productos {
-        display: flex;
-        flex-direction: column;
-        justify-content: start;
-
-    }
-
-    .section-productos-imagenes {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-
-    }
 
 }
 
@@ -127,13 +97,13 @@ footer {
 
 
 
-// PAGINA EVENTOS
+// PAGINAS
 
 
 // taller
 
 .header-taller{
-    background-image: url("../public/eventos/header-taller.jpg");
+    background-image: url("../public/taller/header-taller.jpg");
     background-repeat: no-repeat;
     background-size: 100vw;
     height: 65vw;
@@ -151,7 +121,7 @@ footer {
         flex-direction: column;
         align-items: flex-start;
         justify-content: center;
-        margin-bottom: 50px;
+        margin-bottom: 70px;
 
         .p-importante {
             font-weight: bold;
@@ -161,4 +131,14 @@ footer {
             color: #787878;
         }
     }
+}
+
+
+// MENU
+
+.header-menu{
+    background-image: url("../public/menu/header-menu.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    height: 65vw;
 }
