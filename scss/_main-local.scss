@@ -100,7 +100,34 @@ footer {
 // PAGINAS
 
 
+.section-menu{
+
+    .multimedia-menu{
+
+        width: 50%;
+
+        .img-menu{
+            max-width: 50%;
+    
+        }
+
+
+    }
+
+}
+
+
+
 // taller
+
+
+.header-cowork{
+    background-image: url("../public/co-work/co-work1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    height: 65vw;
+
+}
 
 .header-taller{
     background-image: url("../public/taller/header-taller.jpg");

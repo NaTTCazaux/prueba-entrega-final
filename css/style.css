@@ -56,6 +56,9 @@
           font-size: 20px; }
         .principal-section-cafe .section-cafe .cafe-textos p {
           font-size: 12px; }
+  .section-menu {
+    display: flex;
+    flex-direction: column; }
   .cowork-principal {
     display: flex;
     flex-direction: column;
@@ -143,6 +146,10 @@
         color: #204a4a;
         width: 70%;
         text-align: center; }
+  .section-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; }
   .header-cafe {
     background-image: url("../public/cafe/header-cafe.jpg");
     background-repeat: no-repeat;
@@ -286,6 +293,17 @@ footer {
     font-size: 12px;
     color: #204a4a;
     margin-top: 15px; }
+
+.section-menu .multimedia-menu {
+  width: 50%; }
+  .section-menu .multimedia-menu .img-menu {
+    max-width: 50%; }
+
+.header-cowork {
+  background-image: url("../public/co-work/co-work1.jpg");
+  background-repeat: no-repeat;
+  background-size: 100vw;
+  height: 65vw; }
 
 .header-taller {
   background-image: url("../public/taller/header-taller.jpg");

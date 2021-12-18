@@ -122,7 +122,10 @@
 
 
 
-
+.section-menu{
+    display: flex;
+    flex-direction: column;
+}
   
     .cowork-principal {
         display: flex;
@@ -299,6 +302,12 @@
 
 
     // PAGINAS
+
+    .section-menu{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
 
 
 
