@@ -100,21 +100,7 @@ footer {
 // PAGINAS
 
 
-.section-menu{
 
-    .multimedia-menu{
-
-        width: 50%;
-
-        .img-menu{
-            max-width: 50%;
-    
-        }
-
-
-    }
-
-}
 
 
 
@@ -168,4 +154,37 @@ footer {
     background-repeat: no-repeat;
     background-size: 100vw;
     height: 65vw;
+}
+
+.section-principal-menu{
+    
+    h1{
+        font-family: $font-T;
+            color: $color-t;
+            text-align: center;
+    }
+
+    .section-menu{
+
+
+        .multimedia-menu{
+    
+            width: 50%;
+            display: grid;
+            grid-template-columns: auto auto;
+            align-items: center;
+            justify-content: end;
+            grid-gap: 20px;
+    
+            .img-menu{
+                max-width: 80%;
+                border-radius: 10px;
+        
+            }
+    
+    
+        }
+    
+    }
+
 }

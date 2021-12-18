@@ -122,10 +122,46 @@
 
 
 
-.section-menu{
-    display: flex;
-    flex-direction: column;
-}
+    .section-principal-menu{
+    
+        h1{
+            font-family: $font-T;
+                color: $color-t;
+                text-align: center;
+        }
+    
+        .section-menu{
+
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+    
+            .multimedia-menu{
+        
+                width: 50%;
+                display: grid;
+                grid-template-columns: auto auto;
+                align-items: center;
+                justify-content: end;
+                grid-gap: 20px;
+        
+                .img-menu{
+                    max-width: 80%;
+                    border-radius: 10px;
+            
+                }
+        
+        
+            }
+        
+        }
+    
+    }
+
+
+
+
   
     .cowork-principal {
         display: flex;
@@ -303,12 +339,42 @@
 
     // PAGINAS
 
-    .section-menu{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
+    .section-principal-menu{
+    
+        h1{
+            font-family: $font-T;
+                color: $color-t;
+                text-align: center;
+        }
+    
+        .section-menu{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            
+            
+            .multimedia-menu{
+        
+                width: 50%;
+                display: grid;
+                grid-template-columns: auto auto;
+                align-items: center;
+                justify-content: end;
+                grid-gap: 20px;
+        
+                .img-menu{
+                    max-width: 80%;
+                    border-radius: 10px;
+            
+                }
+        
+        
+            }
+        
+        }
+    
     }
-
 
 
     .header-cafe {
