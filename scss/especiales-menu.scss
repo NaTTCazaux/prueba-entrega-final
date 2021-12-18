@@ -1,0 +1,26 @@
+@import "../scss/variables-local.scss";
+
+
+.section-menu1{
+
+    .texto-sec{
+        align-self: center;
+    }
+    
+    
+    .especiales-menu{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+}
+
+
+// .para-comer{
+//     background-image: url("../public/menu/para-comer.png");
+//     background-repeat: no-repeat;
+//     background-size: cover;
+//     height: 100vw;
+// }
