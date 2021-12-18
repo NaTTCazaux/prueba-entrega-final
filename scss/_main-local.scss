@@ -39,7 +39,7 @@
         }
     }
 
-    .img-taller{
+    .img-taller {
         max-width: 40%;
         height: auto;
         border-radius: 10px;
@@ -107,7 +107,7 @@ footer {
 // taller
 
 
-.header-cowork{
+.header-cowork {
     background-image: url("../public/co-work/co-work1.jpg");
     background-repeat: no-repeat;
     background-size: 100vw;
@@ -115,7 +115,7 @@ footer {
 
 }
 
-.header-taller{
+.header-taller {
     background-image: url("../public/taller/header-taller.jpg");
     background-repeat: no-repeat;
     background-size: 100vw;
@@ -125,7 +125,7 @@ footer {
 .section-paginas {
     margin-top: 70px;
 
-    .img-taller{
+    .img-taller {
         width: 100%;
     }
 
@@ -149,42 +149,29 @@ footer {
 
 // MENU
 
-.header-menu{
+.header-menu {
     background-image: url("../public/menu/header-menu.jpg");
     background-repeat: no-repeat;
     background-size: 100vw;
     height: 65vw;
 }
 
-.section-principal-menu{
-    
-    h1{
+.section-principal-menu {
+
+    h1 {
         font-family: $font-T;
-            color: $color-t;
-            text-align: center;
+        color: $color-t;
+        text-align: center;
     }
 
-    .section-menu{
+}
 
+.texto-formulario {
+    text-align: center;
+}
 
-        .multimedia-menu{
-    
-            width: 50%;
-            display: grid;
-            grid-template-columns: auto auto;
-            align-items: center;
-            justify-content: end;
-            grid-gap: 20px;
-    
-            .img-menu{
-                max-width: 80%;
-                border-radius: 10px;
-        
-            }
-    
-    
-        }
-    
+.formulario {
+    div {
+        text-align: center;
     }
-
 }

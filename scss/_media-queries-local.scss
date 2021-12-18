@@ -75,95 +75,106 @@
         background-size: 100vw;
         height: 65vw;
     }
-    
+
     .principal-section-cafe {
-    
+
         padding: 0 4rem;
 
 
-        h1{
+        h1 {
 
             font-size: 30px;
 
         }
-    
+
         .section-cafe {
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: space-around;
-    
-            .cafe-multimedia{
+
+            .cafe-multimedia {
                 width: 80%;
                 margin-bottom: 70px;
-    
+
                 .img-cafe {
                     max-width: 100%;
                 }
             }
-    
+
             .cafe-textos {
                 display: flex;
                 flex-direction: column;
 
-    
+
                 h2 {
                     font-size: 20px;
                 }
-    
+
                 p {
                     font-size: 12px;
                 }
             }
-    
+
         }
     }
 
 
 
 
-    .section-principal-menu{
-    
-        h1{
+    .section-principal-menu {
+
+        h1 {
             font-family: $font-T;
-                color: $color-t;
-                text-align: center;
+            color: $color-t;
+            text-align: center;
         }
-    
-        .section-menu{
+
+        .section-menu {
 
             display: flex;
             flex-direction: column;
             justify-content: space-between;
             align-items: center;
+
+            .acordion-padre {
+                width: 100%;
     
-            .multimedia-menu{
-        
-                width: 50%;
+                .accordion {
+                    width: 100%;
+                    padding-right: 8%;
+                }
+            }
+
+            .multimedia-menu {
+
+                width: 80%;
                 display: grid;
                 grid-template-columns: auto auto;
                 align-items: center;
                 justify-content: end;
                 grid-gap: 20px;
-        
-                .img-menu{
-                    max-width: 80%;
+
+                .img-menu {
+                    max-width: 100%;
                     border-radius: 10px;
-            
+
                 }
-        
-        
+
+
             }
-        
+
         }
-    
+
     }
 
 
 
 
-  
+
     .cowork-principal {
+
+        width: 60%;
         display: flex;
         flex-direction: column;
         margin: 50px;
@@ -184,6 +195,10 @@
             "cowork-gastronomica cowork-descanso"
             "cowork-after cowork-dias";
         justify-content: space-around;
+
+        div {
+            text-align: center;
+        }
 
         .cowork-wifi {
             grid-area: cowork-wifi;
@@ -339,41 +354,51 @@
 
     // PAGINAS
 
-    .section-principal-menu{
-    
-        h1{
+    .section-principal-menu {
+
+        h1 {
             font-family: $font-T;
-                color: $color-t;
-                text-align: center;
+            color: $color-t;
+            text-align: center;
         }
+
+        .section-menu {
+
+            .acordion-padre {
+                width: 50%;
     
-        .section-menu{
+                .accordion {
+                    width: 100%;
+                    padding-right: 8%;
+                }
+            }
+
             display: flex;
             flex-direction: row;
             justify-content: space-between;
             align-items: center;
-            
-            
-            .multimedia-menu{
-        
+
+
+            .multimedia-menu {
+
                 width: 50%;
                 display: grid;
                 grid-template-columns: auto auto;
                 align-items: center;
                 justify-content: end;
                 grid-gap: 20px;
-        
-                .img-menu{
+
+                .img-menu {
                     max-width: 80%;
                     border-radius: 10px;
-            
+
                 }
-        
-        
+
+
             }
-        
+
         }
-    
+
     }
 
 
@@ -383,45 +408,47 @@
         background-size: 100vw;
         height: 65vw;
     }
-    
+
     .principal-section-cafe {
-    
+
         padding: 0 4rem;
-    
+
         .section-cafe {
             display: flex;
             flex-direction: row;
             align-items: center;
             justify-content: space-around;
-    
-            .cafe-multimedia{
+
+            .cafe-multimedia {
                 width: 50%;
-    
+
                 .img-cafe {
                     max-width: 70%;
                 }
             }
-    
+
             .cafe-textos {
                 display: flex;
                 flex-direction: column;
-    
+
                 h2 {
                     font-size: 30px;
                 }
-    
+
                 p {
                     font-size: 12px;
                 }
             }
-    
+
         }
     }
 
     .cowork-principal {
+        width: 60%;
         display: flex;
         flex-direction: column;
-        margin: 50px;
+        margin: 50px auto;
+        text-align: center;
     }
 
     .cowork-cards {
@@ -438,6 +465,11 @@
         grid-template-areas: "cowork-wifi cowork-reuniones cowork-gastronomica"
             "cowork-descanso cowork-after cowork-dias";
         justify-content: space-around;
+        row-gap: 25px;
+
+        div {
+            text-align: center;
+        }
 
         .cowork-wifi {
             grid-area: cowork-wifi;
