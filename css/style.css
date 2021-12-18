@@ -38,35 +38,24 @@
   .principal-section-cafe {
     padding: 0 4rem; }
     .principal-section-cafe h1 {
-      font-family: "Krona One", sans-serif;
-      font-size: 30px;
-      color: #204a4a; }
+      font-size: 30px; }
     .principal-section-cafe .section-cafe {
       display: flex;
       flex-direction: column;
       align-items: center;
-      justify-content: space-around;
-      margin-top: 70px; }
+      justify-content: space-around; }
       .principal-section-cafe .section-cafe .cafe-multimedia {
         width: 80%;
-        text-align: center;
         margin-bottom: 70px; }
         .principal-section-cafe .section-cafe .cafe-multimedia .img-cafe {
           max-width: 100%; }
       .principal-section-cafe .section-cafe .cafe-textos {
         display: flex;
-        flex-direction: column;
-        margin-bottom: 70px; }
+        flex-direction: column; }
         .principal-section-cafe .section-cafe .cafe-textos h2 {
-          font-family: "Krona One", sans-serif;
-          font-size: 20px;
-          color: #204a4a; }
+          font-size: 20px; }
         .principal-section-cafe .section-cafe .cafe-textos p {
-          font-family: "Rubik", sans-serif;
-          text-decoration: none;
-          font-size: 12px;
-          color: black;
-          margin-top: 15px; }
+          font-size: 12px; }
   .cowork-principal {
     display: flex;
     flex-direction: column;
@@ -165,26 +154,18 @@
       display: flex;
       flex-direction: row;
       align-items: center;
-      justify-content: space-around;
-      margin-top: 70px; }
+      justify-content: space-around; }
       .principal-section-cafe .section-cafe .cafe-multimedia {
-        width: 50%;
-        text-align: center; }
+        width: 50%; }
         .principal-section-cafe .section-cafe .cafe-multimedia .img-cafe {
           max-width: 70%; }
       .principal-section-cafe .section-cafe .cafe-textos {
         display: flex;
         flex-direction: column; }
         .principal-section-cafe .section-cafe .cafe-textos h2 {
-          font-family: "Krona One", sans-serif;
-          font-size: 30px;
-          color: #204a4a; }
+          font-size: 30px; }
         .principal-section-cafe .section-cafe .cafe-textos p {
-          font-family: "Rubik", sans-serif;
-          text-decoration: none;
-          font-size: 12px;
-          color: black;
-          margin-top: 15px; }
+          font-size: 12px; }
   .cowork-principal {
     display: flex;
     flex-direction: column;
@@ -332,6 +313,32 @@ footer {
   background-repeat: no-repeat;
   background-size: 100vw;
   height: 65vw; }
+
+.header-cafe {
+  background-image: url("../public/cafe/header-cafe.jpg");
+  background-repeat: no-repeat;
+  background-size: 100vw;
+  height: 65vw; }
+
+.principal-section-cafe {
+  padding: 0 4rem; }
+  .principal-section-cafe h1 {
+    font-family: "Krona One", sans-serif;
+    color: #204a4a;
+    text-align: center; }
+  .principal-section-cafe .section-cafe {
+    margin-top: 100px; }
+    .principal-section-cafe .section-cafe .cafe-multimedia {
+      text-align: center; }
+    .principal-section-cafe .section-cafe .cafe-textos {
+      margin-bottom: 70px; }
+      .principal-section-cafe .section-cafe .cafe-textos h2 {
+        font-family: "Krona One", sans-serif;
+        color: #204a4a; }
+      .principal-section-cafe .section-cafe .cafe-textos p {
+        font-family: "Rubik", sans-serif;
+        color: black;
+        margin-top: 15px; }
 
 .section-menu1 .texto-sec {
   align-self: center; }
