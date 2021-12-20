@@ -2,6 +2,10 @@
   .logo-principal {
     width: 60px;
     margin-left: 10px; }
+  .navbar-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
   .pagina-principal {
     background-image: url("../public/header-max1.jpg");
     background-repeat: no-repeat;
@@ -9,10 +13,6 @@
     background-position: center;
     height: 100vh;
     display: grid; }
-    .pagina-principal .nav-principal .navbar-nav {
-      display: flex;
-      flex-direction: column;
-      align-items: center; }
     .pagina-principal .bienvenida {
       display: flex;
       flex-direction: column;

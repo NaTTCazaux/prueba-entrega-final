@@ -11,6 +11,11 @@
         margin-left: 10px;
 
     }
+    .navbar-nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
     .pagina-principal {
         background-image: url("../public/header-max1.jpg");
@@ -19,14 +24,6 @@
         background-position: center;
         height: 100vh;
         display: grid;
-
-        .nav-principal {
-            .navbar-nav {
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-            }
-        }
 
         .bienvenida {
             display: flex;
