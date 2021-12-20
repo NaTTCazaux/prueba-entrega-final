@@ -8,17 +8,10 @@
 }
 
 .principal-section-cafe {
-
-    h1{
-        font-family: $font-T;
-            color: $color-t;
-            text-align: center;
-    }
-
     padding: 0 4rem;
 
     .section-cafe {
-        margin-top: 100px;
+        margin-top: $separacion;
 
         .cafe-multimedia{
             text-align: center;
@@ -26,19 +19,18 @@
         }
 
         .cafe-textos {
-            margin-bottom: 70px;
+            margin-bottom: $separacion;
             
 
-            h2 {
-                font-family: $font-T;
-                color: $color-t;
-            }
+            // h2 {
+            //     font-family: $font-T;
+            //     color: $color-t;
+            // }
 
-            p {
-                font-family: $font-S;
-                color: black;
-                margin-top: 15px;
-            }
+            // p {
+            //     font-family: $font-S;
+            //     color: black;
+            // }
         }
 
     }

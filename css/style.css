@@ -19,77 +19,65 @@
       align-items: center; }
       .pagina-principal .bienvenida-escritorio {
         display: none; }
-      .pagina-principal .bienvenida h1 {
-        font-family: "Krona One", sans-serif;
-        font-weight: bold;
-        font-size: 27px;
-        color: #204a4a;
-        margin-top: 0; }
-  .section-principal .section-multimedia {
-    margin-bottom: 40px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around; }
+  .textos- {
+    margin-top: 70px; }
   .header-cafe {
     background-image: url("../public/cafe/header-cafe.jpg");
     background-repeat: no-repeat;
     background-size: 100vw;
     height: 65vw; }
-  .principal-section-cafe {
-    padding: 0 4rem; }
-    .principal-section-cafe h1 {
-      font-size: 30px; }
-    .principal-section-cafe .section-cafe {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: space-around; }
-      .principal-section-cafe .section-cafe .cafe-multimedia {
-        width: 80%;
-        margin-bottom: 70px; }
-        .principal-section-cafe .section-cafe .cafe-multimedia .img-cafe {
-          max-width: 100%; }
-      .principal-section-cafe .section-cafe .cafe-textos {
-        display: flex;
-        flex-direction: column; }
-        .principal-section-cafe .section-cafe .cafe-textos h2 {
-          font-size: 20px; }
-        .principal-section-cafe .section-cafe .cafe-textos p {
-          font-size: 12px; }
-  .section-principal-menu h1 {
-    font-family: "Krona One", sans-serif;
-    color: #204a4a;
+  .principal-section-cafe h1 {
     text-align: center; }
-  .section-principal-menu .section-menu {
+  .principal-section-cafe .section-cafe {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    align-items: center; }
-    .section-principal-menu .section-menu .acordion-padre {
-      width: 100%; }
-      .section-principal-menu .section-menu .acordion-padre .accordion {
-        width: 100%;
-        padding-right: 8%; }
-    .section-principal-menu .section-menu .multimedia-menu {
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 70px; }
+    .principal-section-cafe .section-cafe .cafe-multimedia {
       width: 80%;
-      display: grid;
-      grid-template-columns: auto auto;
-      align-items: center;
-      justify-content: end;
-      grid-gap: 20px; }
-      .section-principal-menu .section-menu .multimedia-menu .img-menu {
-        max-width: 100%;
-        border-radius: 10px; }
+      margin-bottom: 70px; }
+      .principal-section-cafe .section-cafe .cafe-multimedia .img-cafe {
+        max-width: 100%; }
+    .principal-section-cafe .section-cafe .cafe-textos {
+      display: flex;
+      flex-direction: column; }
+      .principal-section-cafe .section-cafe .cafe-textos p {
+        color: black; }
+  .section-principal-menu {
+    margin-top: 70px; }
+    .section-principal-menu .section-menu {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center; }
+      .section-principal-menu .section-menu .acordion-padre {
+        width: 100%; }
+        .section-principal-menu .section-menu .acordion-padre .accordion {
+          width: 100%;
+          padding-right: 8%; }
+      .section-principal-menu .section-menu .multimedia-menu {
+        width: 80%;
+        display: grid;
+        grid-template-columns: auto auto;
+        align-items: center;
+        justify-content: end;
+        grid-gap: 20px; }
+        .section-principal-menu .section-menu .multimedia-menu .img-menu {
+          max-width: 100%;
+          border-radius: 10px; }
   .cowork-principal {
     width: 60%;
     display: flex;
     flex-direction: column;
-    margin: 50px; }
+    margin: 70px; }
   .cowork-cards {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     padding: 50px; }
+    .cowork-cards p {
+      color: black; }
   .cowork-info {
     background-color: #204a4a;
     padding: 40px;
@@ -110,12 +98,6 @@
       grid-area: cowork-after; }
     .cowork-info .cowork-dias {
       grid-area: cowork-dias; }
-    .cowork-info p {
-      color: white; }
-    .cowork-info .iconos-cowork {
-      width: 40px; }
-  .iconos-cowork {
-    width: 60px; }
   footer {
     display: grid;
     grid-template-areas: "footer-logo footer-redes" "footer-nosotros footer-direccion" "footer-taller footer-horario" "footer-menu footer-cowork"; }
@@ -139,7 +121,9 @@
       grid-area: footer-horario;
       margin-top: -11px; }
     footer .iconos-redes {
-      width: 18px; } }
+      width: 18px; }
+    footer p {
+      color: black; } }
 
 @media (min-width: 575.98px) {
   .logo-principal {
@@ -163,71 +147,59 @@
       align-items: center; }
       .pagina-principal .bienvenida-mobil {
         display: none; }
-      .pagina-principal .bienvenida h1 {
-        font-family: "Krona One", sans-serif;
-        font-weight: bold;
-        font-size: 60px;
-        color: #204a4a;
-        width: 70%;
-        text-align: center; }
-  .section-principal-menu h1 {
-    font-family: "Krona One", sans-serif;
-    color: #204a4a;
-    text-align: center; }
-  .section-principal-menu .section-menu {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center; }
-    .section-principal-menu .section-menu .acordion-padre {
-      width: 50%; }
-      .section-principal-menu .section-menu .acordion-padre .accordion {
-        width: 100%;
-        padding-right: 8%; }
-    .section-principal-menu .section-menu .multimedia-menu {
-      width: 50%;
-      display: grid;
-      grid-template-columns: auto auto;
-      align-items: center;
-      justify-content: end;
-      grid-gap: 20px; }
-      .section-principal-menu .section-menu .multimedia-menu .img-menu {
-        max-width: 80%;
-        border-radius: 10px; }
+  .section-principal-menu {
+    margin-top: 70px; }
+    .section-principal-menu .section-menu {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center; }
+      .section-principal-menu .section-menu .acordion-padre {
+        width: 50%; }
+        .section-principal-menu .section-menu .acordion-padre .accordion {
+          width: 100%;
+          padding-right: 8%; }
+      .section-principal-menu .section-menu .multimedia-menu {
+        width: 50%;
+        display: grid;
+        grid-template-columns: auto auto;
+        align-items: center;
+        justify-content: end;
+        grid-gap: 20px; }
+        .section-principal-menu .section-menu .multimedia-menu .img-menu {
+          max-width: 80%;
+          border-radius: 10px; }
   .header-cafe {
     background-image: url("../public/cafe/header-cafe.jpg");
     background-repeat: no-repeat;
     background-size: 100vw;
     height: 65vw; }
-  .principal-section-cafe {
-    padding: 0 4rem; }
-    .principal-section-cafe .section-cafe {
+  .principal-section-cafe .section-cafe {
+    margin-bottom: 70px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around; }
+    .principal-section-cafe .section-cafe .cafe-multimedia {
+      width: 50%; }
+      .principal-section-cafe .section-cafe .cafe-multimedia .img-cafe {
+        max-width: 70%; }
+    .principal-section-cafe .section-cafe .cafe-textos {
       display: flex;
-      flex-direction: row;
-      align-items: center;
-      justify-content: space-around; }
-      .principal-section-cafe .section-cafe .cafe-multimedia {
-        width: 50%; }
-        .principal-section-cafe .section-cafe .cafe-multimedia .img-cafe {
-          max-width: 70%; }
-      .principal-section-cafe .section-cafe .cafe-textos {
-        display: flex;
-        flex-direction: column; }
-        .principal-section-cafe .section-cafe .cafe-textos h2 {
-          font-size: 30px; }
-        .principal-section-cafe .section-cafe .cafe-textos p {
-          font-size: 12px; }
+      flex-direction: column; }
   .cowork-principal {
     width: 60%;
     display: flex;
     flex-direction: column;
-    margin: 50px auto;
+    margin: 70px auto;
     text-align: center; }
   .cowork-cards {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     padding: 50px; }
+    .cowork-cards p {
+      color: black; }
   .cowork-info {
     background-color: #204a4a;
     padding: 40px;
@@ -251,13 +223,10 @@
       grid-area: cowork-dias; }
     .cowork-info p {
       color: white; }
-  .iconos-cowork {
-    width: 60px; }
   /* FOOTER */
   footer {
     display: grid;
-    grid-template-areas: "footer-logo footer-nosotros footer-cowork footer-direccion" "footer-redes footer-taller footer-menu footer-horario";
-    margin-top: 50px; }
+    grid-template-areas: "footer-logo footer-nosotros footer-cowork footer-direccion" "footer-redes footer-taller footer-menu footer-horario"; }
     footer .footer-logo {
       grid-area: footer-logo;
       margin-top: 70px; }
@@ -281,12 +250,59 @@
     footer footer div {
       padding: 20px; }
     footer .iconos-redes {
-      width: 26px; } }
+      width: 26px; }
+    footer p {
+      color: black; } }
+
+h1 {
+  font-size: 1.8em;
+  font-family: "Krona One", sans-serif;
+  color: #204a4a;
+  text-align: center; }
+
+h2 {
+  font-size: 1.5em;
+  font-family: "Krona One", sans-serif;
+  color: #204a4a; }
+
+h3 {
+  font-size: 1.25em;
+  font-family: "Krona One", sans-serif;
+  color: #204a4a;
+  text-align: center; }
+
+h5 {
+  font-size: 0.95em;
+  font-family: "Krona One", sans-serif;
+  color: #204a4a;
+  font-weight: bold;
+  margin-top: 15px; }
+
+p {
+  font-family: "Rubik", sans-serif;
+  font-size: 0.95em; }
+
+.p-importante {
+  font-weight: bold; }
+
+.bienvenida-mobil {
+  font-family: "Krona One", sans-serif;
+  font-weight: bold;
+  font-size: 1.6em;
+  color: #204a4a;
+  margin-top: 0; }
+
+.bienvenida-escritorio {
+  font-family: "Krona One", sans-serif;
+  font-weight: bold;
+  font-size: 3.75em;
+  color: #204a4a;
+  width: 70%;
+  text-align: center; }
 
 .p-section {
   font-family: "Rubik", sans-serif;
-  text-decoration: none;
-  font-size: 20px;
+  font-size: 1.1em;
   color: black; }
 
 .section-principal {
@@ -301,13 +317,7 @@
   .section-principal .textos- {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-    margin-top: 40px; }
-    .section-principal .textos- h2 {
-      font-family: "Krona One", sans-serif;
-      font-size: 30px;
-      color: #204a4a; }
+    align-items: flex-start; }
   .section-principal .img-taller {
     max-width: 40%;
     height: auto;
@@ -324,24 +334,13 @@ footer {
     font-family: "Krona One", sans-serif;
     text-decoration: none;
     font-weight: bold;
-    font-size: 12px;
+    font-size: 0.95em;
     color: #204a4a;
     margin-top: 15px; }
   footer div p {
-    font-family: "Rubik", sans-serif;
-    text-decoration: none;
-    font-size: 12px;
-    color: black;
     margin-top: 15px; }
   footer .p-importante {
     font-weight: bold; }
-  footer h5 {
-    font-family: "Krona One", sans-serif;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 12px;
-    color: #204a4a;
-    margin-top: 15px; }
 
 .header-cowork {
   background-image: url("../public/co-work/co-work1.jpg");
@@ -365,8 +364,6 @@ footer {
     align-items: flex-start;
     justify-content: center;
     margin-bottom: 70px; }
-    .section-paginas .textos- .p-importante {
-      font-weight: bold; }
     .section-paginas .textos- .p-gris {
       color: #787878; }
 
@@ -375,11 +372,6 @@ footer {
   background-repeat: no-repeat;
   background-size: 100vw;
   height: 65vw; }
-
-.section-principal-menu h1 {
-  font-family: "Krona One", sans-serif;
-  color: #204a4a;
-  text-align: center; }
 
 .texto-formulario {
   text-align: center; }
@@ -395,29 +387,25 @@ footer {
 
 .principal-section-cafe {
   padding: 0 4rem; }
-  .principal-section-cafe h1 {
-    font-family: "Krona One", sans-serif;
-    color: #204a4a;
-    text-align: center; }
   .principal-section-cafe .section-cafe {
-    margin-top: 100px; }
+    margin-top: 70px; }
     .principal-section-cafe .section-cafe .cafe-multimedia {
       text-align: center; }
     .principal-section-cafe .section-cafe .cafe-textos {
       margin-bottom: 70px; }
-      .principal-section-cafe .section-cafe .cafe-textos h2 {
-        font-family: "Krona One", sans-serif;
-        color: #204a4a; }
-      .principal-section-cafe .section-cafe .cafe-textos p {
-        font-family: "Rubik", sans-serif;
-        color: black;
-        margin-top: 15px; }
 
-.section-menu1 .texto-sec {
-  align-self: center; }
+.iconos-cowork {
+  width: 40px; }
 
-.section-menu1 .especiales-menu {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center; }
+.section-menu {
+  margin-top: 70px; }
+  .section-menu .texto-sec {
+    align-self: center; }
+  .section-menu .especiales-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center; }
+
+.section-menu-preguntas {
+  margin-top: 70px; }

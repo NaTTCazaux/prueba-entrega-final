@@ -37,28 +37,12 @@
                 display: none;
             }
 
-            h1 {
-                font-family: $font-T;
-                font-weight: bold;
-                font-size: 27px;
-                color: $color-t;
-                margin-top: 0;
-            }
         }
 
     }
 
-    .section-principal {
-
-
-        .section-multimedia {
-            margin-bottom: 40px;
-            display: flex;
-            flex-direction: row;
-            justify-content: space-around;
-
-        }
-
+    .textos-{
+        margin-top: $separacion;
     }
 
 
@@ -78,13 +62,8 @@
 
     .principal-section-cafe {
 
-        padding: 0 4rem;
-
-
-        h1 {
-
-            font-size: 30px;
-
+        h1{
+            text-align: center;
         }
 
         .section-cafe {
@@ -92,6 +71,7 @@
             flex-direction: column;
             align-items: center;
             justify-content: space-around;
+            margin-bottom: $separacion;
 
             .cafe-multimedia {
                 width: 80%;
@@ -106,13 +86,8 @@
                 display: flex;
                 flex-direction: column;
 
-
-                h2 {
-                    font-size: 20px;
-                }
-
                 p {
-                    font-size: 12px;
+                    color: $color-n;
                 }
             }
 
@@ -124,11 +99,8 @@
 
     .section-principal-menu {
 
-        h1 {
-            font-family: $font-T;
-            color: $color-t;
-            text-align: center;
-        }
+        margin-top: $separacion;
+
 
         .section-menu {
 
@@ -158,9 +130,7 @@
                 .img-menu {
                     max-width: 100%;
                     border-radius: 10px;
-
                 }
-
 
             }
 
@@ -173,11 +143,10 @@
 
 
     .cowork-principal {
-
         width: 60%;
         display: flex;
         flex-direction: column;
-        margin: 50px;
+        margin: $separacion
     }
 
     .cowork-cards {
@@ -185,6 +154,11 @@
         flex-direction: column;
         justify-content: space-around;
         padding: 50px;
+
+        
+        p{
+            color: $color-n;
+        }
     }
 
     .cowork-info {
@@ -224,18 +198,9 @@
             grid-area: cowork-dias;
         }
 
-        p {
-            color: white;
-        }
 
-        .iconos-cowork {
-            width: 40px;
-        }
     }
 
-    .iconos-cowork {
-        width: 60px;
-    }
 
     footer {
 
@@ -284,6 +249,10 @@
 
         .iconos-redes {
             width: 18px;
+        }
+
+        p{
+            color: $color-n;
         }
     }
 
@@ -337,15 +306,6 @@
                 display: none;
             }
 
-            h1 {
-                font-family: $font-T;
-                font-weight: bold;
-                font-size: 60px;
-                color: $color-t;
-                width: 70%;
-                text-align: center;
-
-            }
         }
     }
 
@@ -356,11 +316,8 @@
 
     .section-principal-menu {
 
-        h1 {
-            font-family: $font-T;
-            color: $color-t;
-            text-align: center;
-        }
+        margin-top: $separacion;
+
 
         .section-menu {
 
@@ -411,9 +368,9 @@
 
     .principal-section-cafe {
 
-        padding: 0 4rem;
-
         .section-cafe {
+            margin-bottom: $separacion;
+
             display: flex;
             flex-direction: row;
             align-items: center;
@@ -430,14 +387,6 @@
             .cafe-textos {
                 display: flex;
                 flex-direction: column;
-
-                h2 {
-                    font-size: 30px;
-                }
-
-                p {
-                    font-size: 12px;
-                }
             }
 
         }
@@ -447,7 +396,7 @@
         width: 60%;
         display: flex;
         flex-direction: column;
-        margin: 50px auto;
+        margin: $separacion auto;
         text-align: center;
     }
 
@@ -456,6 +405,10 @@
         flex-direction: row;
         justify-content: space-around;
         padding: 50px;
+
+        p{
+            color: $color-n;
+        }
     }
 
     .cowork-info {
@@ -494,15 +447,12 @@
         .cowork-dias {
             grid-area: cowork-dias;
         }
-
+        
         p {
-            color: white;
+            color:$color-w;
         }
     }
 
-    .iconos-cowork {
-        width: 60px;
-    }
 
     /* FOOTER */
 
@@ -512,11 +462,10 @@
         grid-template-areas:
             "footer-logo footer-nosotros footer-cowork footer-direccion"
             "footer-redes footer-taller footer-menu footer-horario";
-        margin-top: 50px;
 
         .footer-logo {
             grid-area: footer-logo;
-            margin-top: 70px;
+            margin-top: $separacion;
         }
 
         .footer-nosotros {
@@ -556,6 +505,10 @@
 
         .iconos-redes {
             width: 26px;
+        }
+
+        p{
+            color: $color-n;
         }
 
     }

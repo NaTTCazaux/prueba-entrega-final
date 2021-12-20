@@ -1,9 +1,28 @@
-//variables//
+//VARIABLES//
 
 $color-t:#204a4a;
+
+$color-n:rgb(0, 0, 0);
+
+$color-w:rgb(255, 255, 255);
+
+
 
 $font-T:'Krona One', sans-serif;
 
 $font-S:'Rubik', sans-serif;
+
+$separacion: 70px;
+
+
+//BUCLES//
+
+// @for $i from 1 to 6 {
+
+
+//     h#{$i} {
+//         font-size: 1.8em - $i;
+//     }
+// }
 
 
