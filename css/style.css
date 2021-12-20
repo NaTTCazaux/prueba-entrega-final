@@ -271,6 +271,12 @@ h3 {
   color: #204a4a;
   text-align: center; }
 
+h4 {
+  font-size: 1.2em;
+  font-family: "Rubik", sans-serif;
+  color: #204a4a;
+  text-align: center; }
+
 h5 {
   font-size: 0.95em;
   font-family: "Krona One", sans-serif;
@@ -401,11 +407,9 @@ footer {
   margin-top: 70px; }
   .section-menu .texto-sec {
     align-self: center; }
-  .section-menu .especiales-menu {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center; }
+
+.listas-comida {
+  list-style: none; }
 
 .section-menu-preguntas {
   margin-top: 70px; }
