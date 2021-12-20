@@ -98,6 +98,8 @@
       grid-area: cowork-after; }
     .cowork-info .cowork-dias {
       grid-area: cowork-dias; }
+    .cowork-info p {
+      color: white; }
   footer {
     display: grid;
     grid-template-areas: "footer-logo footer-redes" "footer-nosotros footer-direccion" "footer-taller footer-horario" "footer-menu footer-cowork"; }
