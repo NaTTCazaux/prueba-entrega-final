@@ -308,6 +308,9 @@ p {
   width: 70%;
   text-align: center; }
 
+.p-gris {
+  color: #787878; }
+
 .p-section {
   font-family: "Rubik", sans-serif;
   font-size: 1.1em;
@@ -393,6 +396,9 @@ footer {
   background-repeat: no-repeat;
   background-size: 100vw;
   height: 65vw; }
+
+.p-cafe {
+  width: 48%; }
 
 .principal-section-cafe {
   padding: 0 4rem; }
