@@ -1,0 +1,116 @@
+@import "../scss/variables-local.scss";
+
+
+// MOBIL
+
+
+@media (max-width: 575.98px) {
+
+
+    .text-error {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+
+        .h1-paginas-error {
+            display: none;
+        }
+
+        .h1-paginas-error-mobil{
+            font-family: $font-T;
+            font-weight: bold;
+            font-size: 1.6em;
+            color: $color-err;
+            margin-top: 0;
+        }
+
+        .boton-error {
+            background-color: $color-err;
+        }
+    }
+
+    .nav-error {
+        display: flex;
+
+        .logo-error {
+            width: 60px;
+            margin-left: 10px;
+        }
+    }
+
+
+}
+
+
+// ESCRITORIO
+
+
+@media (min-width: 575.98px) {
+    .text-error {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+
+        .h1-paginas-error {
+            font-family: $font-T;
+            font-weight: bold;
+            font-size: 3.75em;
+            color: $color-err;
+            width: 70%;
+            text-align: center;
+        }
+        .h1-paginas-error-mobil{
+            display: none;
+        }
+
+        .boton-error {
+            background-color: $color-err;
+        }
+    }
+
+    .nav-error {
+        display: flex;
+
+        .logo-error {
+            width: 80px;
+            margin-left: 10px;
+        }
+    }
+
+
+}
+
+
+
+
+.header-cafe-error {
+    background-image: url("../public/error/header-cafe-error.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    height: 56vw;
+}
+
+.header-menu-error {
+    background-image: url("../public/error/header-menu-error.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    height: 56vw;
+}
+
+.header-cowork-error {
+    background-image: url("../public/error/header-cowork-error.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    height: 56vw;
+}
+
+.header-taller-error {
+    background-image: url("../public/error/header-taller-error.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    height: 56vw;
+}
