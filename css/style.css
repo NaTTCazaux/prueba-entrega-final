@@ -351,7 +351,7 @@ footer {
     font-weight: bold; }
 
 .header-cowork {
-  background-image: url("../public/co-work/co-work1.jpg");
+  background-image: url("../public/co-work/co-work.jpg");
   background-repeat: no-repeat;
   background-size: 100vw;
   height: 65vw; }
@@ -365,7 +365,8 @@ footer {
 .section-paginas {
   margin-top: 70px; }
   .section-paginas .img-taller {
-    width: 100%; }
+    width: 100%;
+    border-radius: 10px; }
   .section-paginas .textos- {
     display: flex;
     flex-direction: column;
@@ -410,7 +411,7 @@ footer {
   .section-menu .texto-sec {
     align-self: center; }
 
-.listas-comida {
+.listas {
   list-style: none; }
 
 .section-menu-preguntas {

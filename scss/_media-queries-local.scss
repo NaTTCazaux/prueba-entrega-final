@@ -11,6 +11,7 @@
         margin-left: 10px;
 
     }
+
     .navbar-nav {
         display: flex;
         flex-direction: column;
@@ -38,7 +39,7 @@
 
     }
 
-    .textos-{
+    .textos- {
         margin-top: $separacion;
     }
 
@@ -59,7 +60,7 @@
 
     .principal-section-cafe {
 
-        h1{
+        h1 {
             text-align: center;
         }
 
@@ -108,7 +109,7 @@
 
             .acordion-padre {
                 width: 100%;
-    
+
                 .accordion {
                     width: 100%;
                     padding-right: 8%;
@@ -126,7 +127,7 @@
 
                 .img-menu {
                     max-width: 100%;
-                    border-radius: 10px;
+                    border-radius: $borde;
                 }
 
             }
@@ -152,8 +153,8 @@
         justify-content: space-around;
         padding: 50px;
 
-        
-        p{
+
+        p {
             color: $color-n;
         }
     }
@@ -196,7 +197,7 @@
         }
 
         p {
-            color:$color-w;
+            color: $color-w;
         }
     }
 
@@ -250,7 +251,7 @@
             width: 18px;
         }
 
-        p{
+        p {
             color: $color-n;
         }
     }
@@ -322,7 +323,7 @@
 
             .acordion-padre {
                 width: 50%;
-    
+
                 .accordion {
                     width: 100%;
                     padding-right: 8%;
@@ -346,7 +347,7 @@
 
                 .img-menu {
                     max-width: 80%;
-                    border-radius: 10px;
+                    border-radius: $borde;
 
                 }
 
@@ -405,7 +406,7 @@
         justify-content: space-around;
         padding: 50px;
 
-        p{
+        p {
             color: $color-n;
         }
     }
@@ -446,9 +447,9 @@
         .cowork-dias {
             grid-area: cowork-dias;
         }
-        
+
         p {
-            color:$color-w;
+            color: $color-w;
         }
     }
 
@@ -506,7 +507,7 @@
             width: 26px;
         }
 
-        p{
+        p {
             color: $color-n;
         }
 

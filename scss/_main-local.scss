@@ -4,63 +4,64 @@ h1 {
     font-size: 1.8em;
     font-family: $font-T;
     color: $color-t;
-    text-align: center; }
-  
-  h2 {
+    text-align: center;
+}
+
+h2 {
     font-size: 1.5em;
     font-family: $font-T;
-    color: $color-t; }
-  
-  h3 {
+    color: $color-t;
+}
+
+h3 {
     font-size: 1.25em;
     font-family: $font-T;
-    color: $color-t; 
+    color: $color-t;
     text-align: center;
- }
+}
 
- h4 {
+h4 {
     font-size: 1.2em;
     font-family: $font-S;
-    color: $color-t; 
+    color: $color-t;
     text-align: center;
- }
-  
-  h5 {
-    font-size: 0.95em; 
+}
+
+h5 {
+    font-size: 0.95em;
     font-family: $font-T;
     color: $color-t;
     font-weight: bold;
-    margin-top: 15px }
+    margin-top: 15px
+}
 
-    p {
-        font-family: $font-S;
-        font-size: 0.95em;
-    }
-
-    
-    .p-importante {
-        font-weight: bold;
-    }
-
-    .bienvenida-mobil{
-        font-family: $font-T;
-        font-weight: bold;
-        font-size: 1.6em;
-        color: $color-t;
-        margin-top: 0;
-    }
-
-    .bienvenida-escritorio{
-        font-family: $font-T;
-        font-weight: bold;
-        font-size: 3.75em;
-        color: $color-t;
-        width: 70%;
-        text-align: center;
-
-    }
+p {
+    font-family: $font-S;
+    font-size: 0.95em;
+}
 
 
+.p-importante {
+    font-weight: bold;
+}
+
+.bienvenida-mobil {
+    font-family: $font-T;
+    font-weight: bold;
+    font-size: 1.6em;
+    color: $color-t;
+    margin-top: 0;
+}
+
+.bienvenida-escritorio {
+    font-family: $font-T;
+    font-weight: bold;
+    font-size: 3.75em;
+    color: $color-t;
+    width: 70%;
+    text-align: center;
+
+}
 
 
 .p-section {
@@ -77,13 +78,13 @@ h1 {
 
     .img-nosotros {
         max-width: 99%;
-        border-radius: 10px;
+        border-radius: $borde;
     }
 
     .img-cafe-especialidad {
         max-width: 49%;
         height: auto;
-        border-radius: 10px;
+        border-radius: $borde;
     }
 
     .textos- {
@@ -95,7 +96,7 @@ h1 {
     .img-taller {
         max-width: 40%;
         height: auto;
-        border-radius: 10px;
+        border-radius: $borde;
     }
 
     .p-importante {
@@ -137,11 +138,9 @@ footer {
 
 // PAGINAS
 
-// taller
-
 
 .header-cowork {
-    background-image: url("../public/co-work/co-work1.jpg");
+    background-image: url("../public/co-work/co-work.jpg");
     background-repeat: no-repeat;
     background-size: 100vw;
     height: 65vw;
@@ -160,6 +159,7 @@ footer {
 
     .img-taller {
         width: 100%;
+        border-radius: $borde;
     }
 
     .textos- {
