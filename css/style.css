@@ -418,6 +418,30 @@ footer {
   margin-top: 70px; }
 
 @media (max-width: 575.98px) {
+  .header-cafe-error {
+    background-image: url("../public/error/header-cafe-error1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh; }
+  .header-menu-error {
+    background-image: url("../public/error/header-menu-error1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh; }
+  .header-cowork-error {
+    background-image: url("../public/error/header-cowork-error1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh; }
+  .header-taller-error {
+    background-image: url("../public/error/header-taller-error1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh; }
   .text-error {
     display: flex;
     flex-direction: column;
@@ -440,6 +464,26 @@ footer {
       margin-left: 10px; } }
 
 @media (min-width: 575.98px) {
+  .header-cafe-error {
+    background-image: url("../public/error/header-cafe-error.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    height: 56vw; }
+  .header-menu-error {
+    background-image: url("../public/error/header-menu-error.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    height: 56vw; }
+  .header-cowork-error {
+    background-image: url("../public/error/header-cowork-error.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    height: 56vw; }
+  .header-taller-error {
+    background-image: url("../public/error/header-taller-error.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    height: 56vw; }
   .text-error {
     display: flex;
     flex-direction: column;
@@ -451,7 +495,8 @@ footer {
       font-size: 3.75em;
       color: #CF5F39;
       width: 70%;
-      text-align: center; }
+      text-align: center;
+      margin-top: 280px; }
     .text-error .h1-paginas-error-mobil {
       display: none; }
     .text-error .boton-error {
@@ -461,27 +506,3 @@ footer {
     .nav-error .logo-error {
       width: 80px;
       margin-left: 10px; } }
-
-.header-cafe-error {
-  background-image: url("../public/error/header-cafe-error.jpg");
-  background-repeat: no-repeat;
-  background-size: 100vw;
-  height: 56vw; }
-
-.header-menu-error {
-  background-image: url("../public/error/header-menu-error.jpg");
-  background-repeat: no-repeat;
-  background-size: 100vw;
-  height: 56vw; }
-
-.header-cowork-error {
-  background-image: url("../public/error/header-cowork-error.jpg");
-  background-repeat: no-repeat;
-  background-size: 100vw;
-  height: 56vw; }
-
-.header-taller-error {
-  background-image: url("../public/error/header-taller-error.jpg");
-  background-repeat: no-repeat;
-  background-size: 100vw;
-  height: 56vw; }

@@ -6,6 +6,38 @@
 
 @media (max-width: 575.98px) {
 
+    .header-cafe-error {
+        background-image: url("../public/error/header-cafe-error1.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+    }
+    
+    .header-menu-error {
+        background-image: url("../public/error/header-menu-error1.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+    }
+    
+    .header-cowork-error {
+        background-image: url("../public/error/header-cowork-error1.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+    }
+    
+    .header-taller-error {
+        background-image: url("../public/error/header-taller-error1.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+    }
+
 
     .text-error {
 
@@ -48,6 +80,37 @@
 
 
 @media (min-width: 575.98px) {
+
+
+    .header-cafe-error {
+        background-image: url("../public/error/header-cafe-error.jpg");
+        background-repeat: no-repeat;
+        background-size: 100vw;
+        height: 56vw;
+    }
+    
+    .header-menu-error {
+        background-image: url("../public/error/header-menu-error.jpg");
+        background-repeat: no-repeat;
+        background-size: 100vw;
+        height: 56vw;
+    }
+    
+    .header-cowork-error {
+        background-image: url("../public/error/header-cowork-error.jpg");
+        background-repeat: no-repeat;
+        background-size: 100vw;
+        height: 56vw;
+    }
+    
+    .header-taller-error {
+        background-image: url("../public/error/header-taller-error.jpg");
+        background-repeat: no-repeat;
+        background-size: 100vw;
+        height: 56vw;
+    }
+
+
     .text-error {
 
         display: flex;
@@ -62,6 +125,7 @@
             color: $color-err;
             width: 70%;
             text-align: center;
+            margin-top: 280px;
         }
         .h1-paginas-error-mobil{
             display: none;
@@ -87,30 +151,3 @@
 
 
 
-.header-cafe-error {
-    background-image: url("../public/error/header-cafe-error.jpg");
-    background-repeat: no-repeat;
-    background-size: 100vw;
-    height: 56vw;
-}
-
-.header-menu-error {
-    background-image: url("../public/error/header-menu-error.jpg");
-    background-repeat: no-repeat;
-    background-size: 100vw;
-    height: 56vw;
-}
-
-.header-cowork-error {
-    background-image: url("../public/error/header-cowork-error.jpg");
-    background-repeat: no-repeat;
-    background-size: 100vw;
-    height: 56vw;
-}
-
-.header-taller-error {
-    background-image: url("../public/error/header-taller-error.jpg");
-    background-repeat: no-repeat;
-    background-size: 100vw;
-    height: 56vw;
-}
