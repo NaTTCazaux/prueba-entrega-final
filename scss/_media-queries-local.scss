@@ -83,10 +83,13 @@
             .cafe-textos {
                 display: flex;
                 flex-direction: column;
-                width: 50%;
 
                 p {
                     color: $color-n;
+                }
+
+                .p-cafe{
+                    display: none;
                 }
             }
 

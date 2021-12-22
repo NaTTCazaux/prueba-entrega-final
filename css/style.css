@@ -41,10 +41,11 @@
         max-width: 100%; }
     .principal-section-cafe .section-cafe .cafe-textos {
       display: flex;
-      flex-direction: column;
-      width: 50%; }
+      flex-direction: column; }
       .principal-section-cafe .section-cafe .cafe-textos p {
         color: black; }
+      .principal-section-cafe .section-cafe .cafe-textos .p-cafe {
+        display: none; }
   .section-principal-menu {
     margin-top: 70px; }
     .section-principal-menu .section-menu {
