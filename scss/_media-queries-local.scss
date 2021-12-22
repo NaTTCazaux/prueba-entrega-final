@@ -96,7 +96,7 @@
 
 
     .section-principal-menu {
-        margin: $separacion $separacion;
+        margin: $separacion 0 $separacion 0;
 
         .section-menu {
             display: flex;
@@ -145,6 +145,10 @@
         flex-direction: column;
         justify-content: space-around;
         padding: 50px;
+
+        .cowork-cards-cards{
+            margin-bottom: $separacion;
+        }
 
         p {
             color: $color-n;
@@ -304,7 +308,7 @@
     // PAGINAS
 
     .section-principal-menu {
-        margin: $separacion $separacion;
+        margin: $separacion 0 $separacion 0;
 
         .section-menu {
             display: flex;

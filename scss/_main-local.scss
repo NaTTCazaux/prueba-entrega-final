@@ -77,12 +77,11 @@ p {
 
 // PAGINA PRINCIPAL
 
-
 .main-pagina-principal {
-    margin: $separacion $separacion;
+    margin: $separacion 0 $separacion 0;
 
     .section-principal {
-        margin: $separacion;
+        margin-top: $separacion;
 
         .img-nosotros {
             max-width: 99%;

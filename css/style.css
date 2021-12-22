@@ -47,7 +47,7 @@
       .principal-section-cafe .section-cafe .cafe-textos .p-cafe {
         display: none; }
   .section-principal-menu {
-    margin: 70px 70px; }
+    margin: 70px 0 70px 0; }
     .section-principal-menu .section-menu {
       display: flex;
       flex-direction: column;
@@ -78,6 +78,8 @@
     flex-direction: column;
     justify-content: space-around;
     padding: 50px; }
+    .cowork-cards .cowork-cards-cards {
+      margin-bottom: 70px; }
     .cowork-cards p {
       color: black; }
   .cowork-info {
@@ -152,7 +154,7 @@
       .pagina-principal .bienvenida-mobil {
         display: none; }
   .section-principal-menu {
-    margin: 70px 70px; }
+    margin: 70px 0 70px 0; }
     .section-principal-menu .section-menu {
       display: flex;
       flex-direction: row;
@@ -320,9 +322,9 @@ p {
   color: black; }
 
 .main-pagina-principal {
-  margin: 70px 70px; }
+  margin: 70px 0 70px 0; }
   .main-pagina-principal .section-principal {
-    margin: 70px; }
+    margin-top: 70px; }
     .main-pagina-principal .section-principal .img-nosotros {
       max-width: 99%;
       border-radius: 10px; }
