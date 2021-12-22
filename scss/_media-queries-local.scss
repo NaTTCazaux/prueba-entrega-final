@@ -71,11 +71,12 @@
             flex-direction: column;
             align-items: center;
             justify-content: space-around;
-            margin-bottom: $separacion;
+            margin: $separacion 0 $separacion 0;
 
             .cafe-multimedia {
                 width: 80%;
-                margin-bottom: 70px;
+                margin-bottom: $separacion;
+                text-align: center;
 
                 .img-cafe {
                     max-width: 80%;
@@ -85,6 +86,7 @@
             .cafe-textos {
                 display: flex;
                 flex-direction: column;
+                text-align: center;
 
                 p {
                     color: $color-n;
