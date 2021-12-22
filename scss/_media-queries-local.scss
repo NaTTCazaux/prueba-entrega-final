@@ -61,7 +61,12 @@
             text-align: center;
         }
 
-        .section-cafe {
+        .section-cafe{
+            display: none;
+        }
+
+
+        .section-cafe-mobil {
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -73,7 +78,7 @@
                 margin-bottom: 70px;
 
                 .img-cafe {
-                    max-width: 100%;
+                    max-width: 80%;
                 }
             }
 
@@ -350,6 +355,10 @@
     }
 
     .principal-section-cafe {
+
+        .section-cafe-mobil{
+            display: none;
+        }
 
         .section-cafe {
             margin-bottom: $separacion;
