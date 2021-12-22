@@ -142,7 +142,8 @@
         width: 60%;
         display: flex;
         flex-direction: column;
-        margin: $separacion
+        margin: $separacion;
+        align-items: center;
     }
 
     .cowork-cards {
