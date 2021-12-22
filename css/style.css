@@ -41,7 +41,8 @@
         max-width: 100%; }
     .principal-section-cafe .section-cafe .cafe-textos {
       display: flex;
-      flex-direction: column; }
+      flex-direction: column;
+      width: 50%; }
       .principal-section-cafe .section-cafe .cafe-textos p {
         color: black; }
   .section-principal-menu {
@@ -188,7 +189,8 @@
         max-width: 70%; }
     .principal-section-cafe .section-cafe .cafe-textos {
       display: flex;
-      flex-direction: column; }
+      flex-direction: column;
+      width: 50%; }
   .cowork-principal {
     width: 60%;
     display: flex;
@@ -322,7 +324,7 @@ p {
     max-width: 99%;
     border-radius: 10px; }
   .section-principal .img-cafe-especialidad {
-    max-width: 49%;
+    max-width: 48%;
     height: auto;
     border-radius: 10px; }
   .section-principal .textos- {
@@ -430,28 +432,11 @@ footer {
     background-size: cover;
     background-position: center;
     height: 100vh; }
-  .header-menu-error {
-    background-image: url("../public/error/header-menu-error1.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 100vh; }
-  .header-cowork-error {
-    background-image: url("../public/error/header-cowork-error1.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 100vh; }
-  .header-taller-error {
-    background-image: url("../public/error/header-taller-error1.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 100vh; }
   .text-error {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    height: 100%;
+    justify-content: center;
     align-items: center; }
     .text-error .h1-paginas-error {
       display: none; }
@@ -459,12 +444,13 @@ footer {
       font-family: "Krona One", sans-serif;
       font-weight: bold;
       font-size: 1.6em;
-      color: #CF5F39;
+      color: #ff4100;
       margin-top: 0; }
     .text-error .boton-error {
-      background-color: #CF5F39; }
+      background-color: #ff4100; }
   .nav-error {
-    display: flex; }
+    display: flex;
+    justify-content: center; }
     .nav-error .logo-error {
       width: 60px;
       margin-left: 10px; } }
@@ -475,40 +461,26 @@ footer {
     background-repeat: no-repeat;
     background-size: 100vw;
     height: 56vw; }
-  .header-menu-error {
-    background-image: url("../public/error/header-menu-error.jpg");
-    background-repeat: no-repeat;
-    background-size: 100vw;
-    height: 56vw; }
-  .header-cowork-error {
-    background-image: url("../public/error/header-cowork-error.jpg");
-    background-repeat: no-repeat;
-    background-size: 100vw;
-    height: 56vw; }
-  .header-taller-error {
-    background-image: url("../public/error/header-taller-error.jpg");
-    background-repeat: no-repeat;
-    background-size: 100vw;
-    height: 56vw; }
   .text-error {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    align-items: center; }
+    align-items: center;
+    height: 100%;
+    justify-content: center; }
     .text-error .h1-paginas-error {
       font-family: "Krona One", sans-serif;
       font-weight: bold;
       font-size: 3.75em;
-      color: #CF5F39;
+      color: #ff4100;
       width: 70%;
-      text-align: center;
-      margin-top: 280px; }
+      text-align: center; }
     .text-error .h1-paginas-error-mobil {
       display: none; }
     .text-error .boton-error {
-      background-color: #CF5F39; }
+      background-color: #ff4100; }
   .nav-error {
-    display: flex; }
+    display: flex;
+    justify-content: center; }
     .nav-error .logo-error {
       width: 80px;
       margin-left: 10px; } }

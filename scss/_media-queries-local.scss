@@ -83,6 +83,7 @@
             .cafe-textos {
                 display: flex;
                 flex-direction: column;
+                width: 50%;
 
                 p {
                     color: $color-n;
@@ -370,7 +371,6 @@
 
         .section-cafe {
             margin-bottom: $separacion;
-
             display: flex;
             flex-direction: row;
             align-items: center;
@@ -387,6 +387,7 @@
             .cafe-textos {
                 display: flex;
                 flex-direction: column;
+                width: 50%;
             }
 
         }
