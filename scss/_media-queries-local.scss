@@ -9,7 +9,6 @@
     .logo-principal {
         width: 60px;
         margin-left: 10px;
-
     }
 
     .navbar-nav {
@@ -34,9 +33,7 @@
             &-escritorio {
                 display: none;
             }
-
         }
-
     }
 
     .textos- {
@@ -88,11 +85,10 @@
                     color: $color-n;
                 }
 
-                .p-cafe{
+                .p-cafe {
                     display: none;
                 }
             }
-
         }
     }
 
@@ -100,12 +96,9 @@
 
 
     .section-principal-menu {
-
-        margin-top: $separacion;
-
+        margin: $separacion $separacion;
 
         .section-menu {
-
             display: flex;
             flex-direction: column;
             justify-content: space-between;
@@ -121,7 +114,6 @@
             }
 
             .multimedia-menu {
-
                 width: 80%;
                 display: grid;
                 grid-template-columns: auto auto;
@@ -133,11 +125,8 @@
                     max-width: 100%;
                     border-radius: $borde;
                 }
-
             }
-
         }
-
     }
 
 
@@ -156,7 +145,6 @@
         flex-direction: column;
         justify-content: space-around;
         padding: 50px;
-
 
         p {
             color: $color-n;
@@ -207,7 +195,6 @@
 
 
     footer {
-
         display: grid;
         grid-template-areas:
             "footer-logo footer-redes"
@@ -294,7 +281,6 @@
             display: none;
         }
 
-
         .nav-principal {
             grid-area: nav-principal;
         }
@@ -309,7 +295,6 @@
             &-mobil {
                 display: none;
             }
-
         }
     }
 
@@ -319,11 +304,13 @@
     // PAGINAS
 
     .section-principal-menu {
-
-        margin-top: $separacion;
-
+        margin: $separacion $separacion;
 
         .section-menu {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
 
             .acordion-padre {
                 width: 50%;
@@ -334,14 +321,7 @@
                 }
             }
 
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
-            align-items: center;
-
-
             .multimedia-menu {
-
                 width: 50%;
                 display: grid;
                 grid-template-columns: auto auto;
@@ -352,14 +332,9 @@
                 .img-menu {
                     max-width: 80%;
                     border-radius: $borde;
-
                 }
-
-
             }
-
         }
-
     }
 
 
@@ -461,7 +436,6 @@
     /* FOOTER */
 
     footer {
-
         display: grid;
         grid-template-areas:
             "footer-logo footer-nosotros footer-cowork footer-direccion"
@@ -514,6 +488,5 @@
         p {
             color: $color-n;
         }
-
     }
 }

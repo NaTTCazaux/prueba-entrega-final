@@ -77,36 +77,42 @@ p {
 
 // PAGINA PRINCIPAL
 
-.section-principal {
-    margin-top: $separacion;
 
-    .img-nosotros {
-        max-width: 99%;
-        border-radius: $borde;
-    }
+.main-pagina-principal {
+    margin: $separacion $separacion;
 
-    .img-cafe-especialidad {
-        max-width: 48%;
-        height: auto;
-        border-radius: $borde;
-    }
+    .section-principal {
+        margin: $separacion;
 
-    .textos- {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-    }
+        .img-nosotros {
+            max-width: 99%;
+            border-radius: $borde;
+        }
 
-    .img-taller {
-        max-width: 40%;
-        height: auto;
-        border-radius: $borde;
-    }
+        .img-cafe-especialidad {
+            max-width: 48%;
+            height: auto;
+            border-radius: $borde;
+        }
 
-    .p-importante {
-        font-weight: bold;
+        .textos- {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+        .img-taller {
+            max-width: 40%;
+            height: auto;
+            border-radius: $borde;
+        }
+
+        .p-importante {
+            font-weight: bold;
+        }
     }
 }
+
 
 
 footer {
@@ -173,7 +179,6 @@ footer {
         justify-content: center;
         margin-bottom: 70px;
 
-
         .p-gris {
             color: #787878;
         }
@@ -199,4 +204,8 @@ footer {
     div {
         text-align: center;
     }
+}
+
+.form {
+    margin-bottom: $separacion;
 }

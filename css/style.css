@@ -47,7 +47,7 @@
       .principal-section-cafe .section-cafe .cafe-textos .p-cafe {
         display: none; }
   .section-principal-menu {
-    margin-top: 70px; }
+    margin: 70px 70px; }
     .section-principal-menu .section-menu {
       display: flex;
       flex-direction: column;
@@ -152,7 +152,7 @@
       .pagina-principal .bienvenida-mobil {
         display: none; }
   .section-principal-menu {
-    margin-top: 70px; }
+    margin: 70px 70px; }
     .section-principal-menu .section-menu {
       display: flex;
       flex-direction: row;
@@ -319,25 +319,27 @@ p {
   font-size: 1.1em;
   color: black; }
 
-.section-principal {
-  margin-top: 70px; }
-  .section-principal .img-nosotros {
-    max-width: 99%;
-    border-radius: 10px; }
-  .section-principal .img-cafe-especialidad {
-    max-width: 48%;
-    height: auto;
-    border-radius: 10px; }
-  .section-principal .textos- {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start; }
-  .section-principal .img-taller {
-    max-width: 40%;
-    height: auto;
-    border-radius: 10px; }
-  .section-principal .p-importante {
-    font-weight: bold; }
+.main-pagina-principal {
+  margin: 70px 70px; }
+  .main-pagina-principal .section-principal {
+    margin: 70px; }
+    .main-pagina-principal .section-principal .img-nosotros {
+      max-width: 99%;
+      border-radius: 10px; }
+    .main-pagina-principal .section-principal .img-cafe-especialidad {
+      max-width: 48%;
+      height: auto;
+      border-radius: 10px; }
+    .main-pagina-principal .section-principal .textos- {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start; }
+    .main-pagina-principal .section-principal .img-taller {
+      max-width: 40%;
+      height: auto;
+      border-radius: 10px; }
+    .main-pagina-principal .section-principal .p-importante {
+      font-weight: bold; }
 
 footer {
   background-color: #e3ddd53d;
@@ -393,6 +395,9 @@ footer {
 
 .formulario div {
   text-align: center; }
+
+.form {
+  margin-bottom: 70px; }
 
 .header-cafe {
   background-image: url("../public/cafe/header-cafe.jpg");
