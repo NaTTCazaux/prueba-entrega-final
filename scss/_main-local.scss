@@ -197,6 +197,7 @@ footer {
 
 .texto-formulario {
     text-align: center;
+    margin-top: $separacion
 }
 
 .formulario {
@@ -206,5 +207,9 @@ footer {
 }
 
 .form {
-    margin-bottom: $separacion;
+    margin: $separacion 0 $separacion 0;
+}
+
+.section-preguntas {
+    margin: $separacion 0 $separacion 0;
 }

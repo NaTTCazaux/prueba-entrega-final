@@ -393,13 +393,17 @@ footer {
   height: 65vw; }
 
 .texto-formulario {
-  text-align: center; }
+  text-align: center;
+  margin-top: 70px; }
 
 .formulario div {
   text-align: center; }
 
 .form {
-  margin-bottom: 70px; }
+  margin: 70px 0 70px 0; }
+
+.section-preguntas {
+  margin: 70px 0 70px 0; }
 
 .header-cafe {
   background-image: url("../public/cafe/header-cafe.jpg");
@@ -429,9 +433,6 @@ footer {
 
 .listas {
   list-style: none; }
-
-.section-menu-preguntas {
-  margin-top: 70px; }
 
 @media (max-width: 575.98px) {
   .header-cafe-error {
